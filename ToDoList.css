@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.head{
+    font-size: 3rem;
+    color: rgb(167, 167, 167);
+    font-weight: 900;
+    background-color: #8D1E00;
+    height: 70px;
+    text-align: center;
+    padding-top: 15px;
+    text-decoration:underline double rgb(167, 167, 167);
+    
+}
+
+
+
+.type{
+    height: 120px;
+    background: #8D1E00;
+    font-family: "Libertinus Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    text-decoration: none;
+    border: none;
+    height: 25px;
+    width: 260px;
+    /* margin-left: 520px; */
+    margin-top: 40px;
+    font-family: "Libertinus Mono", monospace;
+    font-weight: 800;
+    font-style: normal;
+    background-color: ffffff;
+    color: #CF5C00;
+    border: 1px solid #ced4da;
+    padding:  6px 10px;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.btn{
+    height: 35px;
+    width: 100px;
+    margin-top: 42px;
+    margin-left: 8px;
+    font-size: 1rem;
+    background-color: #c98e06;
+    color: black;
+    font-family: "Libertinus Mono", monospace;
+    font-weight: 600;
+    font-style: normal;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+  background: #eca500;
+}
+
+
+h2{
+    text-align: center;
+}
+
+
+.work{
+    height: 394px;
+    background: linear-gradient(to bottom,#8D1E00,#CF5C00);
+    display: flex;
+    justify-content: space-around;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.pending{
+    height: 320px;
+    border: 3px solid #c98e06;
+    border-radius: 10px;
+    width: 340px;
+    background-color: #F1D26C;
+    color: red;
+    font-weight: 600;
+}
+
+.pend{
+    color: rgb(121, 0, 0);
+    text-decoration: underline  rgb(121, 0, 0);
+}
+
+.pendList{
+    padding-left: 0px;
+    font-size: 1.2rem;
+}
+
+
+.completed{
+    height: 320px;
+    width: 340px;
+    background-color: #F1D26C;
+    border: 3px solid #c98e06;
+    border-radius: 10px;
+    color: green;
+    font-weight: 600;
+}
+
+.comp{
+    color: rgb(0, 39, 0);
+    text-decoration: underline  rgb(0, 39, 0);
+}
+
+.compList{
+    padding-left: 0px;
+    font-size: 1.2rem;
+}
+
+
+li{
+    margin-left: 50px;
+    cursor: pointer;
+    margin-top: 4px;
+    padding-left: 5px;
+    border-bottom: 1px dotted #c98e06;
+    margin-right: 15px;
+}

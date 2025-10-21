@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="icon" href="ToDoList.jpg"/>
+    <link rel="stylesheet" href="ToDoList.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libertinus+Mono&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="head">TO-DO LIST</div>
+
+    <div class="type">
+        <input placeholder="Enter your work" class="input"/>
+        <button class="btn">Submit</button>
+    </div>
+    <div class="work" style="overflow: auto;">
+        <div class="pending">
+            <h2 class="pend">Pending work</h2>
+            <ul class="pendList">
+                
+            </ul>
+        </div>
+        <div class="completed" style="overflow: auto;">
+            <h2 class="comp">Completed work</h2>
+            <ul class="compList">
+                
+            </ul>
+        </div>
+    </div>
+
+    <script src="ToDo_List.js"></script>
+    
+</body>
+</html>
